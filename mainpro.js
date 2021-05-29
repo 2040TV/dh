@@ -281,7 +281,7 @@ function addLove(dom, id) {
   })
 }
 
-//运行代码
+/*运行代码*/
 (function() {
 	window.onload = function() {
 		var e = "将HTML代码粘在此处，点击运行即可。",
@@ -2561,3 +2561,6 @@ function addLove(dom, id) {
         return C.$ === k && (C.$ = Jt), e && C.jQuery === k && (C.jQuery = Qt), k
     }, e || (C.jQuery = C.$ = k), k
 });
+
+/*!51啦统计*/
+document.write(<script>!function(p){\"use strict\";!function(t){var s=window,e=document,i=p,c=\"\".concat(\"https:\"===e.location.protocol?\"https://\":\"http://\",\"sdk.51.la/js-sdk-pro.min.js\"),n=e.createElement(\"script\"),r=e.getElementsByTagName(\"script\")[0];n.type=\"text/javascript\",n.setAttribute(\"charset\",\"UTF-8\"),n.async=!0,n.src=c,n.id=\"LA_COLLECT\",i.d=n;var o=function(){s.LA.ids.push(i)};s.LA?s.LA.ids&&o():(s.LA=p,s.LA.ids=[],o()),r.parentNode.insertBefore(n,r)}()}({id:\"JH62StfiZvT9etTX\",ck:\"JH62StfiZvT9etTX\"});</script>)

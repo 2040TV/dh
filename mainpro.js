@@ -2567,17 +2567,18 @@ document.write(<script>!function(p){\"use strict\";!function(t){var s=window,e=d
 
 /*!cnzz统计*/
 document.write(unescape("%3Cspan id='cnzz_stat_icon_1279709826'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/z_stat.php%3Fid%3D1279709826%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
-<script>
-(function(){
+
+/*!头条自动提交JS*/
+function(){
 var el = document.createElement("script");
-el.src = "https://sf1-scmcdn-tos.pstatp.com/goofy/ttzz/push.js?70637efef5b6e83f1c4d4f08476b6716f481271d8ec5782a37ec4476efc677d046632f799eee1646cbe771088dca7de83a167c89cf268860b16e25812f2ae13d";
+el.src = "https://sf1-scmcdn-tos.pstatp.com/goofy/ttzz/push.js?70637efef5b6e83f1c4d4f08476b67169a898a0c6d0062f1b8e8d6aa9ee3a62d479ac51b7921bc04d0b2d0afdecbdd1b5c870a0409c821bb42cec4143145b150";
 el.id = "ttzz";
 var s = document.getElementsByTagName("script")[0];
 s.parentNode.insertBefore(el, s);
 })(window)
-</script>
-<script>
-(function(){
+
+/*!360自动提交JS*/
+function(){
 var src = "https://s.ssl.qhres2.com/ssl/ab77b6ea7f3fbf79.js";
 document.write('<script src="' + src + '" id="sozz"><\/script>');
 })();

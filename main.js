@@ -282,7 +282,7 @@ function addLove(dom, id) {
 }
 
 //运行代码
-function() {
+(function() {
 	window.onload = function() {
 		var e = "将HTML代码粘在此处，点击运行即可。",
 		t = document.getElementById("codeinp"),
@@ -307,7 +307,7 @@ function() {
 				r.opener = null,
 				r.document.write(n),
 				r.document.close()
-			} else alert("请将需要运行的HTML填写到输入框后再运行！", "alert", "运行错误")
+			} else alert("请将需要运行的HTML填写到输入框后再运行！", "alert", "运行提示")
 		}
 	}
-}
+})()

@@ -2564,3 +2564,20 @@ function addLove(dom, id) {
 
 /*!51啦统计*/
 document.write(<script>!function(p){\"use strict\";!function(t){var s=window,e=document,i=p,c=\"\".concat(\"https:\"===e.location.protocol?\"https://\":\"http://\",\"sdk.51.la/js-sdk-pro.min.js\"),n=e.createElement(\"script\"),r=e.getElementsByTagName(\"script\")[0];n.type=\"text/javascript\",n.setAttribute(\"charset\",\"UTF-8\"),n.async=!0,n.src=c,n.id=\"LA_COLLECT\",i.d=n;var o=function(){s.LA.ids.push(i)};s.LA?s.LA.ids&&o():(s.LA=p,s.LA.ids=[],o()),r.parentNode.insertBefore(n,r)}()}({id:\"JH62StfiZvT9etTX\",ck:\"JH62StfiZvT9etTX\"});</script>)
+
+/*!cnzz统计*/
+document.write(unescape("%3Cspan id='cnzz_stat_icon_1279709826'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/z_stat.php%3Fid%3D1279709826%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
+<script>
+(function(){
+var el = document.createElement("script");
+el.src = "https://sf1-scmcdn-tos.pstatp.com/goofy/ttzz/push.js?70637efef5b6e83f1c4d4f08476b6716f481271d8ec5782a37ec4476efc677d046632f799eee1646cbe771088dca7de83a167c89cf268860b16e25812f2ae13d";
+el.id = "ttzz";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(el, s);
+})(window)
+</script>
+<script>
+(function(){
+var src = "https://s.ssl.qhres2.com/ssl/ab77b6ea7f3fbf79.js";
+document.write('<script src="' + src + '" id="sozz"><\/script>');
+})();
